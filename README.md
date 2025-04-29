@@ -17,7 +17,7 @@ This project is an implementation of the **Observer design pattern** in C++. It 
 ## 📁 Files
 
 - `header.hpp` – Contains all class declarations and definitions.
-- `source.cpp` – Contains implementations of class member functions.
+- `implementation.cpp` – Contains implementations of class member functions.
 - `main.cpp` – Demonstrates usage with multiple stocks and observers.
 
 ---
@@ -27,4 +27,4 @@ This project is an implementation of the **Observer design pattern** in C++. It 
 You can compile the program using `g++`:
 
 ```bash
-g++ -Wall -std=c++17 main.cpp source.cpp -o observer
+g++ -Wall -std=c++17 main.cpp implementation.cpp -o observer
